@@ -2,7 +2,7 @@ package com.ahmed.main;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.io.*;
-
+//Search Agent
 public class SearchAgent implements Runnable {
 	String pattern; 
 	ConcurrentLinkedQueue<File> queue;
