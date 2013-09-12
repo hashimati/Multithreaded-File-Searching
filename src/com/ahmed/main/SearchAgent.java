@@ -48,7 +48,6 @@ public class SearchAgent implements Runnable {
 							synchronized (queue) {
 								queue.add(c);
 							}
-
 				}
 				//Thread.sleep(100);
 			}

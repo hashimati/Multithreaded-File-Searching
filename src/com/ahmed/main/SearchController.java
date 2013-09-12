@@ -28,7 +28,7 @@ public class SearchController {
 		for (int i = 0; i < threadNo; i++) {
 			pool.execute(new SearchAgent(queue, searchResult, pattern));
 			System.out.println("Thread #" + (i + 1) + " has been started");
-			Thread.sleep(1000);
+			Thread.sleep(10);
 		}
 		pool.shutdown();
 		pool.awaitTermination(00, TimeUnit.SECONDS);
